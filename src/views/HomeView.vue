@@ -3,7 +3,7 @@ import CharacterItem from '@/components/CharacterItem.vue'
 import BasePagination from '@/components/BasePagination.vue'
 import { onMounted } from 'vue'
 import CharacterFiler from '@/components/CharacterFiler.vue'
-import { usecharacterStore } from '@/stores/counter'
+import { usecharacterStore } from '@/stores/characters'
 
 const store = usecharacterStore()
 
